@@ -1,0 +1,531 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "546x447"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "button_text": "text",
+            "button_link": "text"
+        },
+        "element": {
+            "title_message": "text",
+            "modal": true
+        }
+    },
+    "about_banner": {
+        "builder": true,
+        "name": "About Banner",
+        "content": {
+            "images": {
+                
+                "image": {
+                    "size": "555x335"
+                }
+            },
+            "video_link": "text",
+            "heading": "text",
+            "description": "textarea"
+        
+        }
+    },
+    "about_content": {
+        "builder": true,
+        "name": "About Content Section",
+        "element": {
+            "icon": "icon",
+            "heading": "text",
+            "description": "textarea",
+            "modal":true
+        }
+    },
+    "location": {
+        "builder": true,
+        "name": "Location Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "map_link": "text"
+        },
+        "element": {
+            "city": "text",
+            "address": "text",
+            "map_link": "text",
+            "modal":true
+        }
+    },
+
+    "achivment": {
+        "builder": true,
+        "name": "Achievement Section",
+        "content": {
+            "images": {
+                
+                "image": {
+                    "size": "555x470"
+                }
+            },
+            "heading": "text",
+            "description": "textarea"
+        
+        },
+        "element": {
+            "value": "text",
+            "symbol": "text",
+            "operator": "text",
+            "title": "textarea",
+            "modal":true
+        }
+    },
+    "instructor": {
+        "builder": true,
+        "name": "Instructor Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "547x547"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "button_text": "text",
+            "button_link": "text"
+        },
+        "element": {
+            "heading": "text",
+            "subheading": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "earning": {
+        "builder": true,
+        "name": "Earning Section",
+        "content": {
+            "title": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "380x280"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+  
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "images": {
+                "shape": {
+                    "size": "1920x250"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "digit": "text",
+            "symbol": "text",
+            "modal": true
+        }
+    },
+    "cta": {
+        "builder": true,
+        "name": "Cta Section",
+        "content": {
+            "images": {
+                "image_one": {
+                    "size": "290x350"
+                },
+                "image_two": {
+                    "size": "315x315"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "button_text": "text",
+            "button_link": "text"
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "hide_builder": true,
+        "element": {
+            "title": "text",
+            "slug": "title",
+            "details": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1020x575",
+                    "thumb": "510x290"
+                }
+            },
+            "title": "text",
+            "slug": "title",
+            "preview_text": "textarea",
+            "description": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "shape_one": {
+                    "size": "295x195"
+                },
+                "shape_two": {
+                    "size": "530x640"
+                }
+            },
+            "heading": "text",
+            "short_description": "text",
+            "title": "text",
+            "subtitle": "text"
+        },
+        "element": {
+            "city": "text",
+            "address": "text",
+            "google_map_link": "text",
+            "modal": true
+        }
+    },
+    "popular_courses": {
+        "builder": true,
+        "name": "Popular Courses Sections",
+        "content": {
+            "images": {
+                "shape": {
+                    "size": "1920x390"
+                }
+                
+            },
+            "title": "text",
+            "heading": "text"
+        }
+    },
+    "course_detail": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Course Detail Page",
+        "content": {
+            "images": {
+                "shape": {
+                    "size": "1920x715"
+                } ,
+                "shape_two": {
+                    "size": "1920x715"
+                }  
+            }
+        
+        }
+    },
+    "quiz_view": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Quiz View",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "80x80"
+                }
+            }
+        }
+    },
+
+    "user_dashboard": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Dashboard",
+        "content": {
+            "images": {
+                "shape": {
+                    "size": "1345x55"
+                },
+                "image": {
+                    "size": "80x80"
+                },
+                "image_one": {
+                    "size": "80x80"
+                },
+                "image_two": {
+                    "size": "80x80"
+                },
+                "image_three": {
+                    "size": "80x80"
+                }
+
+            },
+            "heading":"text",
+            "description":"textarea"
+        }
+    },
+    "courses": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Course Page",
+        "content": {
+            "images": {
+                "shape_one": {
+                    "size": "320x155"
+                },
+                "shape_two": {
+                    "size": "320x155"
+                },
+                "shape_three": {
+                    "size": "320x155"
+                }
+            }
+
+        }
+    },
+
+    "learners": {
+        "builder": true,
+        "name": "Learners Section",
+        "content":{
+            "images": {
+                "shape": {
+                    "size": "325x375"
+                    
+                }
+            },
+            "title":"text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "320x175"
+                },
+                "logo": {
+                    "size": "80x22"
+                } 
+
+            },
+            "name":"text",
+            "designation":"text",
+            "country":"text",
+            "modal": false
+            
+        }
+    },
+    "career": {
+        "builder": true,
+        "name": "Career Section",
+        "content":{
+            "heading":"text"
+        },
+        "element": {
+            "title":"text",
+            "subtitle":"text",
+            "modal": true
+        }
+    },
+    "categories": {
+        "builder": true,
+        "name": "Categories Section",
+        "content": {
+            "heading": "text",
+            "subheading":"text"
+        }
+    },
+    "top_courses": {
+        "builder": true,
+        "name": "Top Courses Section",  
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "short_courses": {
+        "builder": true,
+        "name": "Short Courses Section",  
+        "content": {
+            "images": {
+                "shape": {
+                    "size": "1920x200"
+                }
+             
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "teach_banner": {
+        "builder": true,
+        "name": "Teach Banner Section",  
+        "content": {
+            "images": {
+                "image": {
+                    "size": "460x490"
+                }
+             
+            },
+            "heading": "text",
+            "subheading": "text",
+            "button_text": "text",
+            "button_link": "text"
+        },
+        "element":{
+            "title":"text",
+            "modal":true
+        }
+    },
+    "teach_benifit": {
+        "builder": true,
+        "name": "Teach Benefit Section",  
+        "content": {
+            "heading": "text"
+        },
+        "element":{
+            "images": {
+                "image": {
+                    "size": "80x80"
+                }
+            },
+            "title":"text",
+            "description":"textarea",
+            "modal":true
+        }
+    },
+    "instructor_section": {
+        "builder": true,
+        "name": "Our Instructor Section",
+        "element":{
+            "images": {
+                "image": {
+                    "size": "460x490"
+                }
+            },
+            "name":"text",
+            "designation":"text",
+            "quatation":"textarea",
+            "modal":true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content":{
+            "images": {
+                "shape": {
+                    "size": "1920x200"
+                }
+            
+            },
+            "heading":"text"
+        },
+        "element":{
+            "images": {
+                "image": {
+                    "size": "640x360"
+                }
+            },
+            "author":"text",
+            "designation":"text",
+            "rating":"text",
+            "comment":"textarea",
+            "modal":true
+        }
+    },
+    "teach_community": {
+        "builder": true,
+        "name": "Teach Community Section",
+        "content":{
+            "images": {
+                "image": {
+                    "size": "455x285"
+                },
+                "image_two": {
+                    "size": "395x285"
+                }
+            },
+            "heading":"text",
+            "description":"textarea-nic"
+        }
+    },
+    "teach_step": {
+        "builder": true,
+        "name": "Teach Step Section",
+        "content":{
+            "heading":"text"
+        },
+        "element":{
+            "images": {
+                "image": {
+                    "size": "430x355"
+                }
+            },
+            "title":"text",
+            "description":"textarea-nic",
+            "modal":false
+        }
+    },
+    "become_instructor": {
+        "builder": true,
+        "name": "Become Instructor Section",
+        "content":{
+            "heading":"text",
+            "subheading":"text",
+            "button_text":"text",
+            "button_link":"text"
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Content",
+        "content": {
+            "required": "text",
+            "pending": "text",
+            "reject": "text"
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "news_letter_heading": "text",
+            "news_letter_subheading": "text",
+            "footer_description": "textarea"
+          
+        },
+        "element":{
+            "social_icon": "icon" ,
+            "url": "text",
+            "modal": true
+        }
+    }
+    
+}

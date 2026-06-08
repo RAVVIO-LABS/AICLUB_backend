@@ -23,8 +23,8 @@
                 </ul>
             </div>
 
-            <div class="flex-align gap-3">
-                <p class="top-selling-price">
+            <div class="d-flex align-items-center flex-wrap gap-3">
+                <p class="top-selling-price mb-0">
                     @if ($course->discount_price > 0)
                         <del>{{ showAmount($course->price) }}</del>
                         <span class="ms-2">
@@ -34,7 +34,7 @@
                         <span class="ms-2">{{ showAmount($course->price) }}</span>
                     @endif
                 </p>
-                <p class="top-selling-count">{{ $course->purchases_count }} @lang('Enrollments')</p>
+                <p class="top-selling-count mb-0">{{ $course->purchases_count }} @lang('Enrollments')</p>
             </div>
         </div>
     </div><!-- media end-->

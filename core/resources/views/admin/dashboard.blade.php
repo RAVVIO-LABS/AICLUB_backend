@@ -389,11 +389,18 @@
             font-weight: 600;
         }
 
+        .top-selling-price,
+        .top-selling-count {
+            margin-bottom: 0;
+        }
+
         .top-selling-rating .rating {
             display: flex;
             align-items: center;
             gap: 3px;
-            margin-bottom: 6px;
+            margin: 0 0 6px;
+            padding-left: 0;
+            list-style: none;
         }
 
         .top-selling-rating .rating-item {
